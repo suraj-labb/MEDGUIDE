@@ -1,0 +1,9 @@
+streamlit
+torch
+transformers
+accelerate
+bitsandbytes
+pillow
+pandas
+rapidfuzz
+qwen-vl-utils
