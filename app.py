@@ -14,7 +14,10 @@ MODEL_ID = "KushagraWadhwa/medical-prescription-ocr-india"
 
 @st.cache_resource
 def load_model():
-    processor = AutoProcessor.from_pretrained(MODEL_ID)
+    processor = AutoProcessor.from_pretrained(
+    MODEL_ID,
+    trust_remote_code=True
+)
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
         MODEL_ID,
         torch_dtype=torch.bfloat16,
