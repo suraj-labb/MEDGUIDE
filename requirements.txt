@@ -5,5 +5,5 @@ accelerate
 bitsandbytes
 pillow
 pandas
+datasets
 rapidfuzz
-qwen-vl-utils
