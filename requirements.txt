@@ -1,12 +1,4 @@
 streamlit
-torch
-torchvision
-transformers
-accelerate
-bitsandbytes
-pillow
-pandas
 datasets
-rapidfuzz
-qwen-vl-utils
-av
+pandas
+pillow
